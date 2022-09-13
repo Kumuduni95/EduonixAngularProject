@@ -1,0 +1,37 @@
+.tile{
+    width:32%;
+    float:left; 
+    margin:5px 5px 5px 5px; 
+    box-shadow: 1px 1px 3px 2px #ccc;
+    color: #777777;
+    font-weight: bold; 
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    min-height:120px;
+}
+.tile:hover{
+    width:32%;
+    float:left; 
+    margin:5px 5px 5px 5px; 
+    box-shadow: 1px 1px 3px 2px rgb(173, 173, 173);
+    color: #616161;
+    font-weight: bold; 
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.title{
+    color: #616161 !important;
+}
+.title2{
+    color: #8a8a8a !important;
+}
+.links{ 
+    text-decoration: none; 
+    color: #4b4b4b !important
+}
+.links:hover{ 
+    text-decoration: none; 
+    color: #8a8a8a !important
+}

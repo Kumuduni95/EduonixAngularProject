@@ -1,0 +1,16 @@
+
+<div style="margin-top:80px;margin-bottom: 80px;  ">
+    <a routerLink=""><img src="https://cdn-icons-png.flaticon.com/512/93/93634.png" width=30px style="position:fixed;z-index: 3;top:15px;left:15px"/></a>
+    <h1 class="title">Album Title:  <span class="title2">{{album.title}}</span></h1>   
+     
+    <table style="width: 100%;"  >
+        <tr>
+             <td>
+                <div class="tile" *ngFor="let image of photo" >Image Title: {{image.title}}<br><br><a class="links"href="{{image.thumbnailUrl}}">View Thumbnail</a><br><br><a class="links"href="{{image.url}}">View Url</a>
+                    
+                </div>  
+                
+             </td>
+        </tr>
+    </table>
+</div>

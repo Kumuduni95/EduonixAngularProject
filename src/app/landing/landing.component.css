@@ -1,0 +1,29 @@
+.tile{
+    width:31%;
+    float:left; 
+    margin:5px 5px 5px 5px; 
+    box-shadow: 1px 1px 3px 2px #ccc;
+    color: #616161;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    min-height: 40px;
+}
+.tile:hover{
+    width:31%;
+    float:left; 
+    margin:5px 5px 5px 5px; 
+    box-shadow: 1px 1px 3px 2px rgb(173, 173, 173);
+    color: #616161;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.title{
+    color: #616161;
+}

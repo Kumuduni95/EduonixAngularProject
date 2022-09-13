@@ -1,0 +1,21 @@
+.ftr{
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #f2f2f2;
+   color: #616161;
+   text-align: left;
+   max-height:60px ;
+}   
+.hdr{
+    position: fixed;
+   left: 0;
+   top: 0;
+   width: 100%;
+   background-color: #ffffff;
+   color: #616161;
+   text-align: center;
+   max-height:60px ;
+   box-shadow: 1px 1px 5px 3px #ccc;
+}  
